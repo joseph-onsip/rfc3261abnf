@@ -535,4 +535,3 @@ extension-header  =  header-name HCOLON header-value
 header-name       =  token
 header-value      =  *(TEXT-UTF8char / UTF8-CONT / LWS)
 message-body  =  *OCTET
-
