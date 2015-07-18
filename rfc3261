@@ -105,9 +105,6 @@ hexseq         =  hex4 *( ":" hex4)
 hex4           =  1*4HEXDIG
 port           =  1*DIGIT
 
-   The BNF for telephone-subscriber can be found in RFC 2806 [9].  Note,
-   however, that any characters allowed there that are not allowed in
-   the user part of the SIP URI MUST be escaped.
 
 uri-parameters    =  *( ";" uri-parameter)
 uri-parameter     =  transport-param / user-param / method-param
